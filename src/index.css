@@ -1,0 +1,58 @@
+html, body {
+    background: rgb(216,228,247);
+    background: linear-gradient(90deg, rgba(216,228,247,1) 0%, rgba(221,240,237,1) 43%, rgba(112,122,162,1) 100%);
+    color: rgb(0, 0, 0);
+    font-size: helvetica, arial, sans-serif;
+    padding: 20px;
+}
+
+
+.buttonAdd{
+  padding: 10px 20px; /* Ajusta el padding según sea necesario */
+  font-size: 16px; /* Tamaño de la fuente */
+  background-color: #007bff; /* Color de fondo del botón */
+  color: #fff; /* Color del texto del botón */
+  border: none; /* Sin borde */
+  border-radius: 14px; /* Bordes redondeados */
+  cursor: pointer; /* Cambia el cursor al pasar por encima */
+  transition: background-color 0.3s; /* Transición suave para el cambio de color de fondo */
+}
+
+.buttonSubtract{
+  padding: 10px 20px; /* Ajusta el padding según sea necesario */
+  font-size: 16px; /* Tamaño de la fuente */
+  background-color: #b71a97; /* Color de fondo del botón */
+  color: #fff; /* Color del texto del botón */
+  border: none; /* Sin borde */
+  border-radius: 14px; /* Bordes redondeados */
+  cursor: pointer; /* Cambia el cursor al pasar por encima */
+  transition: background-color 0.3s; /* Transición suave para el cambio de color de fondo */
+}
+
+.buttonReset{
+  padding: 10px 20px; /* Ajusta el padding según sea necesario */
+  font-size: 16px; /* Tamaño de la fuente */
+  background-color: #77c214; /* Color de fondo del botón */
+  color: #fff; /* Color del texto del botón */
+  border: none; /* Sin borde */
+  border-radius: 14px; /* Bordes redondeados */
+  cursor: pointer; /* Cambia el cursor al pasar por encima */
+  transition: background-color 0.3s; /* Transición suave para el cambio de color de fondo */
+}
+
+.centered-div {
+  text-align: center;
+  margin-top: 50px;
+}
+
+
+.title{
+  font-size: 2.5rem; /* Tamaño del texto */
+  font-weight: bold; /* Peso de la fuente */
+  color: #333; /* Color inicial del texto */
+  transition: color 0.3s; 
+}
+
+.title:hover {
+  color: #cf17c3; /* Cambio de color al pasar el mouse */
+}
