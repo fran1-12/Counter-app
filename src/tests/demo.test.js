@@ -1,10 +1,10 @@
 test('Código para realizar pruebas',()=>{
    
     // 1. inicialización
-    const message = 'with/without contrats';
+    const greetingMessage = 'with/without contrats';
     // 2. estimulo 
-    const message2 = message.trim();
+    const greetingMessageTwo = greetingMessage.trim();
     // 3. Observar el comportamiento 
-    expect( message ).toBe( message2);
+    expect( message ).toBe( greetingMessageTwo);
 
 })
